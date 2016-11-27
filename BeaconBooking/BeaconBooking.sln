@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5BBD466-687F-4410-A272-78C5F71FEC6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD91A1A8-7877-48C7-997E-90CDAD4E1FEE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BeaconBookingApi", "src\BeaconBookingApi\BeaconBookingApi.xproj", "{3970C04D-36CF-4A57-8D27-24C73B3FB6F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ECC942BF-03BF-4265-A762-AD3CC0DF0B4A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BeaconBookingTest", "test\BeaconBookingTest\BeaconBookingTest.xproj", "{7D4BFA5D-230E-40B2-995A-2D5CE5B75555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3970C04D-36CF-4A57-8D27-24C73B3FB6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3970C04D-36CF-4A57-8D27-24C73B3FB6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3970C04D-36CF-4A57-8D27-24C73B3FB6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3970C04D-36CF-4A57-8D27-24C73B3FB6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4BFA5D-230E-40B2-995A-2D5CE5B75555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4BFA5D-230E-40B2-995A-2D5CE5B75555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4BFA5D-230E-40B2-995A-2D5CE5B75555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4BFA5D-230E-40B2-995A-2D5CE5B75555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3970C04D-36CF-4A57-8D27-24C73B3FB6F1} = {D5BBD466-687F-4410-A272-78C5F71FEC6A}
+		{7D4BFA5D-230E-40B2-995A-2D5CE5B75555} = {ECC942BF-03BF-4265-A762-AD3CC0DF0B4A}
+	EndGlobalSection
+EndGlobal
